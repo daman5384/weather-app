@@ -1,0 +1,27 @@
+.loadingBar {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadingBar img {
+    height: 400px;
+    width: 500px;
+
+}
+
+/* ---------------------media queries---------------------- */
+
+@media screen and (max-width:767px) {
+    .loadingBar img {
+        height: 200px;
+        width: 300px;
+
+    }
+}

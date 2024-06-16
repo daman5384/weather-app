@@ -1,0 +1,31 @@
+footer {
+    visibility: hidden;
+    position: fixed;
+    bottom: 0;
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #222223;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+footer img {
+    height: 30px;
+    filter: invert();
+}
+
+/* ---------------------media queries---------------------- */
+
+@media screen and (min-width:768px) and (max-width:1023px) {}
+
+@media screen and (max-width:767px) {
+    footer {
+        width: 100%;
+        visibility: visible;
+    }
+}
